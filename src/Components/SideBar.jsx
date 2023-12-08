@@ -18,9 +18,9 @@ const SideBar = ({ showSideBar, setShowSideBar }) => {
     <div
       className={`${
         showSideBar
-          ? " transition delay-75 translate-x-0  md:transition-none flex flex-col justify-start gap-10 sm:gap-12 px-4 md:px-0 "
-          : "-translate-x-48 hidden"
-      } bg-white h-[100vh] w-42 lg:w-[5%] md:w-[10vw] sm:w-[12vw] fixed z-10 md:z-0 top-0 md:relative shadow-lg md:pt-8 pt-2 `}
+          ? "flex flex-col justify-start gap-10 sm:gap-12 px-4 md:px-0  transition delay-75 translate-x-0  md:transition-none"
+          : "hidden -translate-x-48"
+      } h-[100vh] w-42 lg:w-[5%] md:w-[10vw] sm:w-[12vw] fixed z-10 md:z-0 top-0 md:relative md:pt-8 pt-2 bg-white shadow-lg `}
     >
       {showSideBar && (
         <FontAwesomeIcon
@@ -29,7 +29,7 @@ const SideBar = ({ showSideBar, setShowSideBar }) => {
           onClick={() => {
             setShowSideBar(!showSideBar);
           }}
-          className="md:hidden bg-white rounded-full px-4 py-3 border border-gray-100 shadow-lg w-fit mx-auto cursor-pointer"
+          className="md:hidden w-fit mx-auto px-4 py-3 border border-gray-100 bg-white shadow-lg rounded-full cursor-pointer"
         />
       )}
       <FontAwesomeIcon icon={faPaperPlane} className="cursor-pointer" />

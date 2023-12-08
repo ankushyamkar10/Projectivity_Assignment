@@ -13,16 +13,16 @@ import Avatar from "../../assets/Avatar.png";
 
 const Done = () => {
   return (
-    <div className="bg-gray-200 px-6 h-fit w-full md:w-[40vw] mr-4 md:mx-0 rounded-lg lg:w-[20vw]">
+    <div className="h-fit w-full md:w-[40vw]  lg:w-[20vw] mr-4 md:mx-0 px-6 bg-gray-200 rounded-lg">
       <div className="text-sky-900 font-bold mb-2 md:mt-1 mt-2 text-lg md:text-md">
         Done
       </div>
-      <div className="bg-white h-[1px] mb-4 lg:mb-1"></div>
+      <div className="h-[1px] mb-4 lg:mb-1 bg-white"></div>
 
-      <div className="flex flex-col lg:flex-col sm:flex-row justify-center  sm:flex-wrap sm:gap-4 gap-4 lg:gap-0">
+      <div className="flex flex-col lg:flex-col sm:flex-row justify-center sm:flex-wrap sm:gap-4 gap-4 lg:gap-0">
         {/* Task 1 */}
-        <div className="md:my-3 lg:my-1 p-2 bg-white rounded-lg text-gray-800 shadow-lg sm:w-[48%] md:w-full ">
-          <div className="my-1 flex items-center justify-between">
+        <div className="md:my-3 lg:my-1 p-2 sm:w-[48%] md:w-full bg-white rounded-lg text-gray-800 shadow-lg">
+          <div className=" flex items-center justify-between my-1">
             <div className="w-[70%] text-sky-900 font-bold text-sm">
               Select Writer
             </div>
@@ -53,8 +53,8 @@ const Done = () => {
         </div>
 
         {/* Task 3 */}
-        <div className="md:my-3 lg:my-1 p-2 bg-white rounded-lg text-gray-800 shadow-lg sm:w-[48%] md:w-full">
-          <div className="my-1 flex items-center justify-between">
+        <div className="sm:w-[48%] md:w-full md:my-3 lg:my-1 p-2 bg-white rounded-lg text-gray-800 shadow-lg ">
+          <div className=" flex items-center justify-between my-1">
             <div className="w-[70%] text-sky-900 font-bold text-sm">
               Delegates tasks for next week.
             </div>
@@ -81,7 +81,7 @@ const Done = () => {
           </div>
         </div>
         {/* Task 2 */}
-        <div className="md:my-3 lg:my-1 p-2 bg-white rounded-lg text-gray-800 shadow-lg sm:w-[48%] md:w-full">
+        <div className="sm:w-[48%] md:w-full md:my-3 lg:my-1 p-2 bg-white rounded-lg text-gray-800 shadow-lg ">
           <div className="">
             <img src={Ground} className="w-full md:h-24 h-36 rounded" />
           </div>
