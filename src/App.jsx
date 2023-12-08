@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 768) {
+      if (window.innerWidth >= 768) {
         setShowSideBar(true);
       } else {
         setShowSideBar(false);

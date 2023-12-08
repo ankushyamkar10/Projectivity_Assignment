@@ -1,8 +1,23 @@
-# React + Vite
+# React Assignment for Projectivity Pvt Ltd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The tech stack used is ReactJs and Tailwind.
 
-Currently, two official plugins are available:
+## Desktop Image
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Desktop](https://github.com/ankushyamkar10/Projectivity_Assignment/blob/main/src/assets/Desktop.jpg)
+
+## Mobile Image
+
+### Image 1
+
+![Mobile1](https://github.com/ankushyamkar10/Projectivity_Assignment/blob/main/src/assets/Mob1.jpg)
+
+### Image 2
+
+![Mobile2](https://github.com/ankushyamkar10/Projectivity_Assignment/blob/main/src/assets/Mob2.jpg)
+
+### Image 3
+
+![Mobile3](https://github.com/ankushyamkar10/Projectivity_Assignment/blob/main/src/assets/Mob3.jpg)
+
+Thanks for reading my Markdown document!

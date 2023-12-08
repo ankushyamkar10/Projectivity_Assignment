@@ -11,7 +11,7 @@ import User from "../../assets/User.png";
 
 const Todo = () => {
   return (
-    <div className="h-fit md:max-w-[40vw]sm:w-[48%] lg:w-[20vw] px-6 rounded-lg bg-gray-200 ">
+    <div className="h-fit md:max-w-[40vw] sm:w-[48%] lg:w-[20vw] px-6 rounded-lg bg-gray-200 ">
       <div className="mb-2 md:mt-1 mt-2 text-lg md:text-md text-sky-900 font-bold ">
         To Do
       </div>
