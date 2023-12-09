@@ -16,7 +16,7 @@ const Phases = () => {
       </button>
 
       {phases.map((phase, index) => {
-        return <PhaseCard phase={phase} key={index} />;
+        return <PhaseCard phase={phase} key={phase.id} />;
       })}
     </div>
   );
