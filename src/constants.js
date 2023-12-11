@@ -3,7 +3,7 @@ import User1 from "./assets/User1.png";
 import User2 from "./assets/User2.png";
 import Avatar from "./assets/Avatar.png";
 
-const phases = [
+var phases = [
   {
     id: 1,
     name: "Phase 1",

@@ -6,10 +6,10 @@ import Done from "./Done";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
 
-const Board = () => {
+const Board = ({ setIsOpen }) => {
   return (
     <div className="flex flex-col lg:flex-row gap-3 lg:gap-0 content-center relative px-4 pt-2 bg-gray-100">
-      <Phases />
+      <Phases setIsOpen={setIsOpen} />
       <div className="sm:flex flex-wrap lg:flex-nowrap lg:flex-row gap-4 items-center lg:items-start justify-between sm:mt-4 lg:mt-0 md:mx-4">
         <Todo />
         <InProgress />
